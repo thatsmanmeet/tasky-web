@@ -40,7 +40,7 @@ body {
   justify-items: center;
   background-color: #f5f7f8;
   max-width: 100%;
-  font-family: "Oxygen";
+  font-family: Arial, Helvetica, sans-serif;
 }
 .wrap .banner {
   display: grid;
@@ -107,19 +107,23 @@ body {
   grid-gap: 25px;
   justify-self: stretch;
   padding: 80px 0;
-  background-color: #f0fbff;
+  background: linear-gradient(rgb(49, 137, 230), rgb(193, 77, 232));
 }
 .wrap .feature-section h2 {
   font-size: 2rem;
   margin: 0 0 40px;
   text-align: center;
   grid-column: 1 / -1;
-  color: #383544;
+  color: #ffffff;
+}
+.wrap .feature-section h3 {
+  text-transform: uppercase;
+  font-family: sans-serif;
 }
 .wrap .feature-section .feature {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.804);
   text-align: center;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
   margin-bottom: 50px;
   box-shadow: 0 0 15px 0.5px rgba(56, 53, 68, 0.1);
@@ -144,6 +148,7 @@ body {
 .wrap .feature-section .get-involved {
   grid-column: 1 / -1;
   text-align: center;
+  color: white;
 }
 .wrap .feature-section .get-involved a {
   display: inline-block;
