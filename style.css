@@ -1,6 +1,8 @@
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
 body {
   margin: 0;
-  font-family: sans-serif;
 }
 
 .author {
@@ -12,7 +14,6 @@ body {
   padding-left: 2em;
   padding-right: 2em;
   text-align: start;
-  font-family: sans-serif;
 }
 
 .full-screen {
@@ -21,12 +22,10 @@ body {
 
 .heading {
   font-size: 2.5em;
-  font-family: sans-serif;
 }
 
 .sub-heading {
   font-size: 0.7em !important;
-  font-family: sans-serif;
   color: #383544;
 }
 
@@ -40,7 +39,6 @@ body {
   justify-items: center;
   background-color: #f5f7f8;
   max-width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .wrap .banner {
   display: grid;
@@ -57,6 +55,9 @@ body {
 .wrap .banner .banner-right {
   text-align: center;
   padding-top: 50px;
+}
+.wrap .banner .banner-right h1 {
+  font-size: 1.8rem;
 }
 .wrap .banner .banner-right .btn-wrap {
   align-content: center;
@@ -107,14 +108,14 @@ body {
   grid-gap: 25px;
   justify-self: stretch;
   padding: 80px 0;
-  background: linear-gradient(rgb(49, 137, 230), rgb(193, 77, 232));
+  background: #f5f7f8;
 }
 .wrap .feature-section h2 {
   font-size: 2rem;
   margin: 0 0 40px;
   text-align: center;
   grid-column: 1 / -1;
-  color: #ffffff;
+  color: #333333;
 }
 .wrap .feature-section h3 {
   text-transform: uppercase;
@@ -148,7 +149,7 @@ body {
 .wrap .feature-section .get-involved {
   grid-column: 1 / -1;
   text-align: center;
-  color: white;
+  color: #333;
 }
 .wrap .feature-section .get-involved a {
   display: inline-block;
