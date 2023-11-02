@@ -34,12 +34,17 @@ body {
   color: dodgerblue;
 }
 
+.btn-wrap {
+  margin-top: 15px;
+}
+
 .wrap {
   display: grid;
   justify-items: center;
   background-color: #f5f7f8;
   max-width: 100%;
 }
+
 .wrap .banner {
   display: grid;
   grid-template-columns: 60% 1fr;
